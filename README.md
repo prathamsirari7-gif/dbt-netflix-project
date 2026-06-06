@@ -201,12 +201,12 @@ Through this project I gained practical experience in:
 🛠️ Technology Stack
 
 Technology	Purpose
-DBT	Data Transformation
-Snowflake	Cloud Data Warehouse
-SQL	Data Processing
-Power BI	Data Visualization & Dashboarding
-Git	Version Control
-GitHub	Project Hosting
+DBT	Data Transformation,
+Snowflake	Cloud Data Warehouse,
+SQL	Data Processing,
+Power BI	Data Visualization & Dashboarding,
+Git	Version Control,
+GitHub	Project Hosting.
 
 ⸻
 
