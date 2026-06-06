@@ -24,7 +24,6 @@ The objective of this project is to:
 ---
 
 ## 🏗️ Data Pipeline Architecture
-
 text
 Raw Netflix Dataset
         │
@@ -53,7 +52,6 @@ Raw Netflix Dataset
  Business Analysis
 
 
----
 
 ## 📂 Project Structure
 
