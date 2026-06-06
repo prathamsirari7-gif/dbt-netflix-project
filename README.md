@@ -210,15 +210,6 @@ GitHub	Project Hosting
 
 ⸻
 
-🔮 Future Enhancements
-
-* CI/CD using GitHub Actions
-* Automated Deployment Pipeline
-* Advanced DBT Macros
-* Production Environment Setup
-* Orchestration using Apache Airflow
-
-⸻
 
 👨‍💻 Author
 
