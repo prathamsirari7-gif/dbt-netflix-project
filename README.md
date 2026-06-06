@@ -1,31 +1,32 @@
-# 🎬 Netflix Analytics Engineering Project using DBT & Snowflake
+🎬 MovieLens Analytics Engineering Project using DBT, Snowflake & Power BI
 
-## 📖 Project Overview
+📖 Project Overview
 
-This project demonstrates an end-to-end Analytics Engineering workflow using DBT (Data Build Tool) and Snowflake.
+This project demonstrates an end-to-end Analytics Engineering workflow using DBT (Data Build Tool), Snowflake, and Power BI.
 
-The goal of this project is to transform raw Netflix datasets into clean, reliable, and analytics-ready data models by following modern data engineering best practices.
+The goal of this project is to transform raw MovieLens datasets into clean, reliable, and analytics-ready data models by following modern data engineering best practices.
 
-The project includes data modeling, data quality testing, snapshots, documentation, and business analysis to build a scalable and maintainable analytics solution.
+The project includes data modeling, data quality testing, snapshots, documentation, business analysis, and Power BI dashboarding to build a scalable and maintainable analytics solution.
 
----
+⸻
 
-## 🎯 Business Objective
+🎯 Business Objective
 
 The objective of this project is to:
 
-- Transform raw Netflix data into business-ready datasets
-- Build reusable and scalable DBT models
-- Ensure data quality through automated testing
-- Track historical changes using snapshots
-- Generate business insights through analytical queries
-- Create a well-documented analytics workflow
+* Transform raw MovieLens data into business-ready datasets
+* Build reusable and scalable DBT models
+* Ensure data quality through automated testing
+* Track historical changes using snapshots
+* Generate business insights through analytical queries
+* Visualize insights through Power BI dashboards
+* Create a well-documented analytics workflow
 
----
+⸻
 
-## 🏗️ Data Pipeline Architecture
-text
-Raw Netflix Dataset
+🏗️ Data Pipeline Architecture
+
+Raw MovieLens Dataset
         │
         ▼
     Snowflake
@@ -50,13 +51,15 @@ Raw Netflix Dataset
         │
         ▼
  Business Analysis
+        │
+        ▼
+   Power BI Dashboard
 
+⸻
 
+📂 Project Structure
 
-## 📂 Project Structure
-
-text
-dbt-netflix-project
+dbt-movielens-project
 │
 ├── analyses/
 ├── macros/
@@ -71,66 +74,66 @@ dbt-netflix-project
 ├── README.md
 └── .gitignore
 
+⸻
 
----
+🚀 Features Implemented
 
-## 🚀 Features Implemented
+Source Configuration
 
-### Source Configuration
+* Defined source tables
+* Established data lineage
+* Maintained source metadata
 
-- Defined source tables
-- Established data lineage
-- Maintained source metadata
+Data Modeling
 
-### Data Modeling
+* Built staging models for data cleaning
+* Created reusable transformations
+* Developed fact and dimension models
+* Followed modular DBT architecture
 
-- Built staging models for data cleaning
-- Created reusable transformations
-- Developed fact and dimension models
-- Followed modular DBT architecture
-
-### Data Quality Testing
+Data Quality Testing
 
 Implemented automated tests:
 
-- Not Null Test
-- Unique Test
-- Accepted Values Test
-- Relationship Test
-- Custom Singular Tests
+* Not Null Test
+* Unique Test
+* Accepted Values Test
+* Relationship Test
+* Custom Singular Tests
 
-### Incremental Processing
+Incremental Processing
 
-- Implemented incremental loading strategy
-- Optimized model execution
-- Reduced processing overhead
+* Implemented incremental loading strategy
+* Optimized model execution
+* Reduced processing overhead
 
-### Snapshot Management
+Snapshot Management
 
 Implemented DBT Snapshots using SCD Type 2 methodology to:
 
-- Preserve historical data
-- Track record changes
-- Enable historical reporting
+* Preserve historical data
+* Track record changes
+* Enable historical reporting
 
-### Documentation
+Documentation
 
-- Added model descriptions using schema.yml
-- Generated DBT documentation
-- Maintained data lineage and metadata
+* Added model descriptions using schema.yml
+* Generated DBT documentation
+* Maintained data lineage and metadata
 
-### Business Analysis
+Business Analysis
 
 Created analytical queries to answer business questions such as:
 
-- Top Rated Movies
-- Content Distribution Analysis
-- Rating Analysis
-- Business Performance Insights
+* Top Rated Movies
+* Genre Distribution Analysis
+* Rating Analysis
+* User Behavior Insights
+* Business Performance Metrics
 
----
+⸻
 
-## 🧪 Data Quality Framework
+🧪 Data Quality Framework
 
 The project implements multiple validation layers to ensure high-quality and trustworthy data.
 
@@ -144,66 +147,81 @@ The project implements multiple validation layers to ensure high-quality and tru
 
 ✅ Custom Business Rule Validation
 
----
+⸻
 
-## 📸 Snapshot Strategy
+📸 Snapshot Strategy
 
 DBT Snapshots were implemented to track historical changes in data using Slowly Changing Dimension (SCD Type 2) methodology.
 
 Benefits:
 
-- Historical Tracking
-- Data Auditing
-- Change Management
-- Trend Analysis
+* Historical Tracking
+* Data Auditing
+* Change Management
+* Trend Analysis
 
----
+⸻
 
-## 📊 Skills Demonstrated
+📊 Power BI Dashboard
+
+This dashboard was built using Power BI to visualize MovieLens data and generate business insights.
+
+Dashboard Features
+
+* Average Rating by Genres
+* Genre-wise Movie Distribution
+* Average Rating KPI Card
+* Top Rated Movies Analysis
+* Interactive Dashboard Visualizations
+
+Dashboard Preview
+
+![Dashboard](MovieLens Dashboard.png)
+
+⸻
+
+📊 Skills Demonstrated
 
 Through this project I gained practical experience in:
 
-- DBT Core
-- Snowflake
-- SQL
-- Data Modeling
-- Analytics Engineering
-- Incremental Models
-- Data Testing
-- Snapshot Management
-- Documentation
-- Git & GitHub
+* DBT Core
+* Snowflake
+* SQL
+* Power BI
+* Data Modeling
+* Analytics Engineering
+* Incremental Models
+* Data Testing
+* Snapshot Management
+* Documentation
+* Git & GitHub
 
----
+⸻
 
-## 🛠️ Technology Stack
+🛠️ Technology Stack
 
-| Technology | Purpose |
-|------------|----------|
-| DBT | Data Transformation |
-| Snowflake | Cloud Data Warehouse |
-| SQL | Data Processing |
-| Git | Version Control |
-| GitHub | Project Hosting |
+Technology	Purpose
+DBT	Data Transformation
+Snowflake	Cloud Data Warehouse
+SQL	Data Processing
+Power BI	Data Visualization & Dashboarding
+Git	Version Control
+GitHub	Project Hosting
 
----
+⸻
 
-## 🔮 Future Enhancements
+🔮 Future Enhancements
 
-- Power BI Dashboard Integration
-- CI/CD using GitHub Actions
-- Automated Deployment Pipeline
-- Advanced DBT Macros
-- Production Environment Setup
+* CI/CD using GitHub Actions
+* Automated Deployment Pipeline
+* Advanced DBT Macros
+* Production Environment Setup
+* Orchestration using Apache Airflow
 
----
+⸻
 
+👨‍💻 Author
 
+Pratham Sirari
 
-## 👨‍💻 Author
-
-### Pratham Sirari
-
-Aspiring Data Engineer passionate about building scalable, reliable, and analytics-ready data solutions using modern data stack technologies.
-
----
+Aspiring Data Engineer passionate about building scalable, reliable, and analytics-ready data solutions using modern data stack technology.
